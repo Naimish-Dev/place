@@ -16,7 +16,7 @@ const Floor = ({ setIsModel }) => {
     document.body.removeChild(link);
   };
   return (
-    <div id="floor-plan" className=" py-14 px-2 bg-gray-300">
+    <div id="floor-plan" className=" py-14 px-2 bg-gray-100">
       <h2 className="text-3xl text-black font-semibold text-center mb-6">
         Floor Plan
       </h2>

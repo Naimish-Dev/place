@@ -124,7 +124,7 @@ export const Hero = ({ setIsModel }) => {
         </div>
       </div>
 
-      <div className="fixed z-10 top-0 left-0 w-screen bg-black text-white  py-4 px-2 bg-opacity-30">
+      <div className="fixed z-10 top-0 left-0 w-screen bg-black text-white  py-4 px-2 bg-opacity-70">
         <div className="flex justify-between items-center ">
           <Link href={"/"} className="text-center">
             <img src="/assets/logo/logo.jpg" className="h-16" alt="logo" />
@@ -146,7 +146,7 @@ export const Hero = ({ setIsModel }) => {
               className=" hover:font-bold transition-all duration-300"
               href={"../#price&payment-plan"}
             >
-              Price & Payment Plan
+              Price & Payment
             </Link>
             <Link
               className=" hover:font-bold transition-all duration-300"
@@ -187,12 +187,12 @@ export const Hero = ({ setIsModel }) => {
         />
 
         <div className="absolute top-0 left-0 h-full w-full flex justify-center items-center bg-black bg-opacity-50">
-          <div className="text-white  flex gap-4 flex-col">
-            <h2 className="text-xl text-center font-bold">
+          <div className="text-white flex gap-4 flex-col">
+            <h2 className="text-xl text-center font-bold break-words break-all">
               The First-Ever 5-Star Branded Residence In Dubai Hills Estate{" "}
               <br /> <span className="text-5xl"> Emaar Palace Residences</span>
             </h2>
-            <div className="flex  flex-wrap justify-center gap-x-3 sm:gap-5">
+            <div className="flex  flex-col sm:flex-row px-2 flex-wrap justify-center gap-x-3 sm:gap-5">
               <button
                 onClick={() => {
                   const token = sessionStorage.getItem("Token");

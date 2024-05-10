@@ -4,7 +4,7 @@ import GalleryImgPreview from "../GalleryImgPreview/GalleryImgPreview";
 const Gallery = () => {
   return (
     <div
-      className="flex justify-center items-center py-10 md:py-16 bg-gray-300"
+      className="flex justify-center items-center py-10 md:py-16 bg-gray-100"
       id="photos"
     >
       <div className="text-center flex flex-col justify-center items-center">

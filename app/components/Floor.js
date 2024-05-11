@@ -45,7 +45,7 @@ const Floor = ({ setIsModel }) => {
           <p className="font-bold  mb-4">Townhouses</p>
           <ul>
             <li className="flex gap-1 items-center ">
-              <MdDiamond />2 Bed
+              <MdDiamond />3 Bed
             </li>
           </ul>
           <button

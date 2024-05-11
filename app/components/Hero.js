@@ -190,7 +190,7 @@ export const Hero = ({ setIsModel }) => {
           <div className="text-white flex gap-4 flex-col">
             <h2 className="text-xl text-center font-bold break-words break-all mx-1 sm:mx-0">
               The First-Ever 5-Star Branded Residence In Dubai Hills Estate{" "}
-              <br /> <span className="text-3xl sm:text-5xl mx-4 sm:mx-0"> Emaar Palace Residences</span>
+              <br /> <span className="text-3xl sm:text-5xl "> Emaar Palace Residences</span>
             </h2>
             <div className="flex  flex-col sm:flex-row px-2 flex-wrap justify-center gap-x-3 sm:gap-5">
               <button

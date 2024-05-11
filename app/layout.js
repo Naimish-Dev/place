@@ -8,7 +8,7 @@ import Script from "next/script";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Place",
+  title: "Palace residence Dubai Hills estate",
   description: "Palace Residences Dhe Payment Plan",
 };
 

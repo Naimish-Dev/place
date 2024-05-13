@@ -17,20 +17,22 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <link rel="icon" href="favicon.ico" />
-        {/* <Script
+        <Script
           async
-          src="https://www.googletagmanager.com/gtag/js?id=AW-16553376594"
+          src="https://www.googletagmanager.com/gtag/js?id=AW-16561901636"
         ></Script>
         <Script
           dangerouslySetInnerHTML={{
             __html: `
-window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-16553376594');         `,
+window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-16553376594');`,
           }}
         />
+
         <Script>
-          {`gtag('event', 'conversion', { 'send_to': 'AW-16553376594/13HxCO2n3awZENL2odU9', 'value': 10.0, 'currency': 'AED' })});`}
+          {`gtag('event', 'conversion', { 'send_to': 'AW-16561901636/SoZbCOCHxq8ZEMSgqtk9', 'value': 10.0, 'currency': 'AED' })`}
         </Script>
-        <Script>{`gtag('config', 'AW-16553376594')`}</Script> */}
+
+        <Script>{`gtag('config', 'AW-16561901636')`}</Script>
       </head>
       <Conact />
       <body className={inter.className}>{children}</body>

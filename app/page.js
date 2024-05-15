@@ -39,7 +39,21 @@ export default function Home() {
   const CloseModelHandler = () => {
     setIsModel(false);
   };
+  useEffect(() => {
+    const checkTokenAndOpenModal = () => {
+      const token = sessionStorage.getItem("Token");
+      if (!token) {
+        setIsModel(true);
+      }
+    };
+    checkTokenAndOpenModal();
 
+    const intervalId = setInterval(checkTokenAndOpenModal, 10000);
+
+    return () => {
+      clearInterval(intervalId);
+    };
+  }, []);
   return (
     <main>
       <div className="cursor"></div>
